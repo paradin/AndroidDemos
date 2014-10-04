@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidDemos</string>
+    <string name="band_icon_desc">Band Icon</string>
+    <string name="demo_btn">Button Demo</string>
+    <string name="btn_txt_simple">Simple Button</string>
+    <string name="btn_txt_longpress">Long Press Button</string>
+    <string name="btn_txt_image_desc">Image of ImageButton</string>
+    <string name="title_activity_demo_dialog">Dialog Demo</string>
+    <string name="txt_dlg_demo">Dialog Demo</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/btn_btn_back"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_txt_simple"
+        android:id="@+id/btn_simple"
+        android:onClick="onClick" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_txt_longpress"
+        android:id="@+id/btn_long_press"
+        android:longClickable="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_image"
+        android:src="@drawable/ic_txt_power"
+        android:contentDescription="@string/btn_txt_image_desc"
+        android:onClick="onClick" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show start tips!"
+        android:id="@+id/checkbox_startshow" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/group_sex">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:id="@+id/radio_male" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:id="@+id/radio_female"
+            android:layout_gravity="center_horizontal" />
+
+    </RadioGroup>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toggle Button"
+        android:id="@+id/btn_toggle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change text size by zoombutton"
+        android:id="@+id/txt_zoombtn"
+        android:layout_gravity="center_horizontal" />
+
+    <ZoomButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/btn_zoom"
+        android:background="@drawable/ic_btn_zoom"
+        android:layout_gravity="center_horizontal" />
+
+    <ZoomControls
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_zoom_controls"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
